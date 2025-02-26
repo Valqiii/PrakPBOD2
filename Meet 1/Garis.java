@@ -1,8 +1,8 @@
 public class Garis {
     // Atribut
-    private Titik titikAwal;
-    private Titik titikAkhir;
-    private static int counterGaris = 0;
+    Titik titikAwal;
+    Titik titikAkhir;
+    public static int counterGaris = 0;
 
     // Konstruktor
     public Garis() {
